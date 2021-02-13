@@ -39,6 +39,12 @@ packageVersion("darkdumpr")
 
 ```
 
+```{r ex-01}
+res <- tibble::as_tibble(search_noir("ransomware"))
+
+cat(res$description[1])
+```
+
 ## darkdumpr Metrics
 
 ```{r cloc, echo=FALSE}
